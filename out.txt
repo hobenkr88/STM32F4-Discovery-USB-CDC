@@ -1,0 +1,294 @@
+./STM32F4_Discovery_USB2.ioc:347:USB_DEVICE.IPParameters=VirtualMode-CDC_FS,VirtualModeFS,USBD_HandleTypeDef-CDC_FS,CLASS_NAME-CDC_FS,CLASS_NAME_FS
+./STM32F4_Discovery_USB2.ioc:348:USB_DEVICE.USBD_HandleTypeDef-CDC_FS=hUsbDeviceFS
+./demo.lst:27093:USBD_StatusTypeDef  USBD_LL_Init (USBD_HandleTypeDef *pdev)
+./demo.lst:27108:USBD_StatusTypeDef  USBD_LL_Init (USBD_HandleTypeDef *pdev)
+./demo.lst:27197:USBD_StatusTypeDef  USBD_LL_Start(USBD_HandleTypeDef *pdev)
+./demo.lst:27210:USBD_StatusTypeDef  USBD_LL_OpenEP  (USBD_HandleTypeDef *pdev, 
+./demo.lst:27237:USBD_StatusTypeDef  USBD_LL_CloseEP (USBD_HandleTypeDef *pdev, uint8_t ep_addr)   
+./demo.lst:27254:USBD_StatusTypeDef  USBD_LL_StallEP (USBD_HandleTypeDef *pdev, uint8_t ep_addr)   
+./demo.lst:27271:USBD_StatusTypeDef  USBD_LL_ClearStallEP (USBD_HandleTypeDef *pdev, uint8_t ep_addr)   
+./demo.lst:27285:uint8_t USBD_LL_IsStallEP (USBD_HandleTypeDef *pdev, uint8_t ep_addr)   
+./demo.lst:27294:uint8_t USBD_LL_IsStallEP (USBD_HandleTypeDef *pdev, uint8_t ep_addr)   
+./demo.lst:27333:USBD_StatusTypeDef  USBD_LL_SetUSBAddress (USBD_HandleTypeDef *pdev, uint8_t dev_addr)   
+./demo.lst:27347:USBD_StatusTypeDef  USBD_LL_Transmit (USBD_HandleTypeDef *pdev, 
+./demo.lst:27364:USBD_StatusTypeDef  USBD_LL_PrepareReceive(USBD_HandleTypeDef *pdev, 
+./demo.lst:27384:uint32_t USBD_LL_GetRxDataSize  (USBD_HandleTypeDef *pdev, uint8_t  ep_addr)  
+./demo.lst:27398:USBD_StatusTypeDef USBD_Init(USBD_HandleTypeDef *pdev, USBD_DescriptorsTypeDef *pdesc, uint8_t id)
+./demo.lst:27457:USBD_StatusTypeDef  USBD_RegisterClass(USBD_HandleTypeDef *pdev, USBD_ClassTypeDef *pclass)
+./demo.lst:27486:USBD_StatusTypeDef  USBD_Start  (USBD_HandleTypeDef *pdev)
+./demo.lst:27504:USBD_StatusTypeDef USBD_SetClassConfig(USBD_HandleTypeDef  *pdev, uint8_t cfgidx)
+./demo.lst:27515:USBD_StatusTypeDef USBD_SetClassConfig(USBD_HandleTypeDef  *pdev, uint8_t cfgidx)
+./demo.lst:27542:USBD_StatusTypeDef USBD_ClrClassConfig(USBD_HandleTypeDef  *pdev, uint8_t cfgidx)
+./demo.lst:27560:USBD_StatusTypeDef USBD_LL_SetupStage(USBD_HandleTypeDef *pdev, uint8_t *psetup)
+./demo.lst:27576:USBD_StatusTypeDef USBD_LL_SetupStage(USBD_HandleTypeDef *pdev, uint8_t *psetup)
+./demo.lst:27647:USBD_StatusTypeDef USBD_LL_DataOutStage(USBD_HandleTypeDef *pdev , uint8_t epnum, uint8_t *pdata)
+./demo.lst:27742:USBD_StatusTypeDef USBD_LL_DataInStage(USBD_HandleTypeDef *pdev ,uint8_t epnum, uint8_t *pdata)
+./demo.lst:27888:USBD_StatusTypeDef USBD_LL_Reset(USBD_HandleTypeDef  *pdev)
+./demo.lst:27898:USBD_StatusTypeDef USBD_LL_Reset(USBD_HandleTypeDef  *pdev)
+./demo.lst:27912:USBD_StatusTypeDef USBD_LL_Reset(USBD_HandleTypeDef  *pdev)
+./demo.lst:27979:USBD_StatusTypeDef USBD_LL_SetSpeed(USBD_HandleTypeDef  *pdev, USBD_SpeedTypeDef speed)
+./demo.lst:27992:USBD_StatusTypeDef USBD_LL_Suspend(USBD_HandleTypeDef  *pdev)
+./demo.lst:28009:USBD_StatusTypeDef USBD_LL_Resume(USBD_HandleTypeDef  *pdev)
+./demo.lst:28024:USBD_StatusTypeDef USBD_LL_SOF(USBD_HandleTypeDef  *pdev)
+./demo.lst:28053:USBD_StatusTypeDef USBD_LL_IsoOUTIncomplete(USBD_HandleTypeDef  *pdev, uint8_t epnum)
+./demo.lst:28063:USBD_StatusTypeDef USBD_LL_DevConnected(USBD_HandleTypeDef  *pdev)
+./demo.lst:28075:USBD_StatusTypeDef USBD_LL_DevDisconnected(USBD_HandleTypeDef  *pdev)
+./demo.lst:28099:void USBD_CtlError( USBD_HandleTypeDef *pdev ,
+./demo.lst:28110:void USBD_CtlError( USBD_HandleTypeDef *pdev ,
+./demo.lst:28122:void USBD_CtlError( USBD_HandleTypeDef *pdev ,
+./demo.lst:28134:USBD_StatusTypeDef  USBD_StdDevReq (USBD_HandleTypeDef *pdev , USBD_SetupReqTypedef  *req)
+./demo.lst:28145:USBD_StatusTypeDef  USBD_StdDevReq (USBD_HandleTypeDef *pdev , USBD_SetupReqTypedef  *req)
+./demo.lst:28346:static void USBD_SetAddress(USBD_HandleTypeDef *pdev , 
+./demo.lst:28542:static void USBD_GetConfig(USBD_HandleTypeDef *pdev , 
+./demo.lst:28579:static void USBD_GetStatus(USBD_HandleTypeDef *pdev , 
+./demo.lst:28615:static void USBD_SetFeature(USBD_HandleTypeDef *pdev , 
+./demo.lst:28639:static void USBD_ClrFeature(USBD_HandleTypeDef *pdev , 
+./demo.lst:28666:USBD_StatusTypeDef  USBD_StdItfReq (USBD_HandleTypeDef *pdev , USBD_SetupReqTypedef  *req)
+./demo.lst:28678:USBD_StatusTypeDef  USBD_StdItfReq (USBD_HandleTypeDef *pdev , USBD_SetupReqTypedef  *req)
+./demo.lst:28729:USBD_StatusTypeDef  USBD_StdEPReq (USBD_HandleTypeDef *pdev , USBD_SetupReqTypedef  *req)
+./demo.lst:28755:USBD_StatusTypeDef  USBD_StdEPReq (USBD_HandleTypeDef *pdev , USBD_SetupReqTypedef  *req)
+./demo.lst:29038:USBD_StatusTypeDef  USBD_CtlSendData (USBD_HandleTypeDef  *pdev, 
+./demo.lst:29074:USBD_StatusTypeDef  USBD_CtlContinueSendData (USBD_HandleTypeDef  *pdev, 
+./demo.lst:29094:USBD_StatusTypeDef  USBD_CtlPrepareRx (USBD_HandleTypeDef  *pdev,
+./demo.lst:29133:USBD_StatusTypeDef  USBD_CtlContinueRx (USBD_HandleTypeDef  *pdev, 
+./demo.lst:29157:USBD_StatusTypeDef  USBD_CtlSendStatus (USBD_HandleTypeDef  *pdev)
+./demo.lst:29183:USBD_StatusTypeDef  USBD_CtlReceiveStatus (USBD_HandleTypeDef  *pdev)
+./demo.lst:29373:USBD_HandleTypeDef hUsbDeviceFS;
+./demo.lst:29418:static uint8_t  USBD_CDC_DataIn (USBD_HandleTypeDef *pdev, uint8_t epnum)
+./demo.lst:29444:static uint8_t  USBD_CDC_EP0_RxReady (USBD_HandleTypeDef *pdev)
+./demo.lst:29454:static uint8_t  USBD_CDC_EP0_RxReady (USBD_HandleTypeDef *pdev)
+./demo.lst:29549:static uint8_t  USBD_CDC_DataOut (USBD_HandleTypeDef *pdev, uint8_t epnum)
+./demo.lst:29564:static uint8_t  USBD_CDC_DataOut (USBD_HandleTypeDef *pdev, uint8_t epnum)
+./demo.lst:29601:static uint8_t  USBD_CDC_Setup (USBD_HandleTypeDef *pdev, 
+./demo.lst:29614:static uint8_t  USBD_CDC_Setup (USBD_HandleTypeDef *pdev, 
+./demo.lst:29637:static uint8_t  USBD_CDC_Setup (USBD_HandleTypeDef *pdev, 
+./demo.lst:29727:static uint8_t  USBD_CDC_DeInit (USBD_HandleTypeDef *pdev, 
+./demo.lst:29739:static uint8_t  USBD_CDC_DeInit (USBD_HandleTypeDef *pdev, 
+./demo.lst:29791:static uint8_t  USBD_CDC_Init (USBD_HandleTypeDef *pdev, 
+./demo.lst:29803:static uint8_t  USBD_CDC_Init (USBD_HandleTypeDef *pdev, 
+./demo.lst:29899:static uint8_t  USBD_CDC_Init (USBD_HandleTypeDef *pdev, 
+./demo.lst:29936:static uint8_t  USBD_CDC_Init (USBD_HandleTypeDef *pdev, 
+./demo.lst:29958:uint8_t  USBD_CDC_RegisterInterface  (USBD_HandleTypeDef   *pdev, 
+./demo.lst:29973:uint8_t  USBD_CDC_RegisterInterface  (USBD_HandleTypeDef   *pdev, 
+./demo.lst:29988:uint8_t  USBD_CDC_SetTxBuffer  (USBD_HandleTypeDef   *pdev,
+./demo.lst:30016:uint8_t  USBD_CDC_SetRxBuffer  (USBD_HandleTypeDef   *pdev,
+./demo.lst:30027:uint8_t  USBD_CDC_SetRxBuffer  (USBD_HandleTypeDef   *pdev,
+./demo.lst:30043:uint8_t  USBD_CDC_ReceivePacket(USBD_HandleTypeDef *pdev)
+./demo.lst:30051:uint8_t  USBD_CDC_ReceivePacket(USBD_HandleTypeDef *pdev)
+./Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:91:USBD_StatusTypeDef USBD_Init(USBD_HandleTypeDef *pdev, USBD_DescriptorsTypeDef *pdesc, uint8_t id);
+./Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:92:USBD_StatusTypeDef USBD_DeInit(USBD_HandleTypeDef *pdev);
+./Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:93:USBD_StatusTypeDef USBD_Start  (USBD_HandleTypeDef *pdev);
+./Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:94:USBD_StatusTypeDef USBD_Stop   (USBD_HandleTypeDef *pdev);
+./Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:95:USBD_StatusTypeDef USBD_RegisterClass(USBD_HandleTypeDef *pdev, USBD_ClassTypeDef *pclass);
+./Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:97:USBD_StatusTypeDef USBD_RunTestMode (USBD_HandleTypeDef  *pdev); 
+./Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:98:USBD_StatusTypeDef USBD_SetClassConfig(USBD_HandleTypeDef  *pdev, uint8_t cfgidx);
+./Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:99:USBD_StatusTypeDef USBD_ClrClassConfig(USBD_HandleTypeDef  *pdev, uint8_t cfgidx);
+./Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:101:USBD_StatusTypeDef USBD_LL_SetupStage(USBD_HandleTypeDef *pdev, uint8_t *psetup);
+./Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:102:USBD_StatusTypeDef USBD_LL_DataOutStage(USBD_HandleTypeDef *pdev , uint8_t epnum, uint8_t *pdata);
+./Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:103:USBD_StatusTypeDef USBD_LL_DataInStage(USBD_HandleTypeDef *pdev , uint8_t epnum, uint8_t *pdata);
+./Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:105:USBD_StatusTypeDef USBD_LL_Reset(USBD_HandleTypeDef  *pdev);
+./Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:106:USBD_StatusTypeDef USBD_LL_SetSpeed(USBD_HandleTypeDef  *pdev, USBD_SpeedTypeDef speed);
+./Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:107:USBD_StatusTypeDef USBD_LL_Suspend(USBD_HandleTypeDef  *pdev);
+./Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:108:USBD_StatusTypeDef USBD_LL_Resume(USBD_HandleTypeDef  *pdev);
+./Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:110:USBD_StatusTypeDef USBD_LL_SOF(USBD_HandleTypeDef  *pdev);
+./Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:111:USBD_StatusTypeDef USBD_LL_IsoINIncomplete(USBD_HandleTypeDef  *pdev, uint8_t epnum);
+./Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:112:USBD_StatusTypeDef USBD_LL_IsoOUTIncomplete(USBD_HandleTypeDef  *pdev, uint8_t epnum);
+./Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:114:USBD_StatusTypeDef USBD_LL_DevConnected(USBD_HandleTypeDef  *pdev);
+./Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:115:USBD_StatusTypeDef USBD_LL_DevDisconnected(USBD_HandleTypeDef  *pdev);
+./Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:118:USBD_StatusTypeDef  USBD_LL_Init (USBD_HandleTypeDef *pdev);
+./Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:119:USBD_StatusTypeDef  USBD_LL_DeInit (USBD_HandleTypeDef *pdev);
+./Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:120:USBD_StatusTypeDef  USBD_LL_Start(USBD_HandleTypeDef *pdev);
+./Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:121:USBD_StatusTypeDef  USBD_LL_Stop (USBD_HandleTypeDef *pdev);
+./Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:122:USBD_StatusTypeDef  USBD_LL_OpenEP  (USBD_HandleTypeDef *pdev, 
+./Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:127:USBD_StatusTypeDef  USBD_LL_CloseEP (USBD_HandleTypeDef *pdev, uint8_t ep_addr);   
+./Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:128:USBD_StatusTypeDef  USBD_LL_FlushEP (USBD_HandleTypeDef *pdev, uint8_t ep_addr);   
+./Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:129:USBD_StatusTypeDef  USBD_LL_StallEP (USBD_HandleTypeDef *pdev, uint8_t ep_addr);   
+./Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:130:USBD_StatusTypeDef  USBD_LL_ClearStallEP (USBD_HandleTypeDef *pdev, uint8_t ep_addr);   
+./Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:131:uint8_t             USBD_LL_IsStallEP (USBD_HandleTypeDef *pdev, uint8_t ep_addr);   
+./Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:132:USBD_StatusTypeDef  USBD_LL_SetUSBAddress (USBD_HandleTypeDef *pdev, uint8_t dev_addr);   
+./Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:133:USBD_StatusTypeDef  USBD_LL_Transmit (USBD_HandleTypeDef *pdev, 
+./Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:138:USBD_StatusTypeDef  USBD_LL_PrepareReceive(USBD_HandleTypeDef *pdev, 
+./Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:143:uint32_t USBD_LL_GetRxDataSize  (USBD_HandleTypeDef *pdev, uint8_t  ep_addr);  
+./Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h:88:USBD_StatusTypeDef  USBD_CtlSendData (USBD_HandleTypeDef  *pdev, 
+./Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h:92:USBD_StatusTypeDef  USBD_CtlContinueSendData (USBD_HandleTypeDef  *pdev, 
+./Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h:96:USBD_StatusTypeDef USBD_CtlPrepareRx (USBD_HandleTypeDef  *pdev, 
+./Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h:100:USBD_StatusTypeDef  USBD_CtlContinueRx (USBD_HandleTypeDef  *pdev, 
+./Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h:104:USBD_StatusTypeDef  USBD_CtlSendStatus (USBD_HandleTypeDef  *pdev);
+./Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h:106:USBD_StatusTypeDef  USBD_CtlReceiveStatus (USBD_HandleTypeDef  *pdev);
+./Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h:108:uint16_t  USBD_GetRxCount (USBD_HandleTypeDef  *pdev , 
+./Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h:84:USBD_StatusTypeDef  USBD_StdDevReq (USBD_HandleTypeDef  *pdev, USBD_SetupReqTypedef  *req);
+./Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h:85:USBD_StatusTypeDef  USBD_StdItfReq (USBD_HandleTypeDef  *pdev, USBD_SetupReqTypedef  *req);
+./Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h:86:USBD_StatusTypeDef  USBD_StdEPReq  (USBD_HandleTypeDef  *pdev, USBD_SetupReqTypedef  *req);
+./Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h:89:void USBD_CtlError  (USBD_HandleTypeDef  *pdev, USBD_SetupReqTypedef *req);
+./Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h:249:} USBD_HandleTypeDef;
+./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c:95:USBD_StatusTypeDef  USBD_CtlSendData (USBD_HandleTypeDef  *pdev, 
+./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c:117:USBD_StatusTypeDef  USBD_CtlContinueSendData (USBD_HandleTypeDef  *pdev, 
+./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c:135:USBD_StatusTypeDef  USBD_CtlPrepareRx (USBD_HandleTypeDef  *pdev,
+./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c:160:USBD_StatusTypeDef  USBD_CtlContinueRx (USBD_HandleTypeDef  *pdev, 
+./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c:177:USBD_StatusTypeDef  USBD_CtlSendStatus (USBD_HandleTypeDef  *pdev)
+./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c:195:USBD_StatusTypeDef  USBD_CtlReceiveStatus (USBD_HandleTypeDef  *pdev)
+./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c:217:uint16_t  USBD_GetRxCount (USBD_HandleTypeDef  *pdev , uint8_t ep_addr)
+./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c:96:USBD_StatusTypeDef USBD_Init(USBD_HandleTypeDef *pdev, USBD_DescriptorsTypeDef *pdesc, uint8_t id)
+./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c:132:USBD_StatusTypeDef USBD_DeInit(USBD_HandleTypeDef *pdev)
+./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c:157:USBD_StatusTypeDef  USBD_RegisterClass(USBD_HandleTypeDef *pdev, USBD_ClassTypeDef *pclass)
+./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c:181:USBD_StatusTypeDef  USBD_Start  (USBD_HandleTypeDef *pdev)
+./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c:196:USBD_StatusTypeDef  USBD_Stop   (USBD_HandleTypeDef *pdev)
+./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c:213:USBD_StatusTypeDef  USBD_RunTestMode (USBD_HandleTypeDef  *pdev) 
+./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c:227:USBD_StatusTypeDef USBD_SetClassConfig(USBD_HandleTypeDef  *pdev, uint8_t cfgidx)
+./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c:249:USBD_StatusTypeDef USBD_ClrClassConfig(USBD_HandleTypeDef  *pdev, uint8_t cfgidx)
+./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c:263:USBD_StatusTypeDef USBD_LL_SetupStage(USBD_HandleTypeDef *pdev, uint8_t *psetup)
+./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c:299:USBD_StatusTypeDef USBD_LL_DataOutStage(USBD_HandleTypeDef *pdev , uint8_t epnum, uint8_t *pdata)
+./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c:343:USBD_StatusTypeDef USBD_LL_DataInStage(USBD_HandleTypeDef *pdev ,uint8_t epnum, uint8_t *pdata)
+./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c:415:USBD_StatusTypeDef USBD_LL_Reset(USBD_HandleTypeDef  *pdev)
+./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c:451:USBD_StatusTypeDef USBD_LL_SetSpeed(USBD_HandleTypeDef  *pdev, USBD_SpeedTypeDef speed)
+./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c:464:USBD_StatusTypeDef USBD_LL_Suspend(USBD_HandleTypeDef  *pdev)
+./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c:478:USBD_StatusTypeDef USBD_LL_Resume(USBD_HandleTypeDef  *pdev)
+./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c:491:USBD_StatusTypeDef USBD_LL_SOF(USBD_HandleTypeDef  *pdev)
+./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c:509:USBD_StatusTypeDef USBD_LL_IsoINIncomplete(USBD_HandleTypeDef  *pdev, uint8_t epnum)
+./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c:520:USBD_StatusTypeDef USBD_LL_IsoOUTIncomplete(USBD_HandleTypeDef  *pdev, uint8_t epnum)
+./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c:531:USBD_StatusTypeDef USBD_LL_DevConnected(USBD_HandleTypeDef  *pdev)
+./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c:542:USBD_StatusTypeDef USBD_LL_DevDisconnected(USBD_HandleTypeDef  *pdev)
+./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c:79:static void USBD_GetDescriptor(USBD_HandleTypeDef *pdev , 
+./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c:82:static void USBD_SetAddress(USBD_HandleTypeDef *pdev , 
+./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c:85:static void USBD_SetConfig(USBD_HandleTypeDef *pdev , 
+./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c:88:static void USBD_GetConfig(USBD_HandleTypeDef *pdev , 
+./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c:91:static void USBD_GetStatus(USBD_HandleTypeDef *pdev , 
+./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c:94:static void USBD_SetFeature(USBD_HandleTypeDef *pdev , 
+./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c:97:static void USBD_ClrFeature(USBD_HandleTypeDef *pdev , 
+./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c:119:USBD_StatusTypeDef  USBD_StdDevReq (USBD_HandleTypeDef *pdev , USBD_SetupReqTypedef  *req)
+./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c:170:USBD_StatusTypeDef  USBD_StdItfReq (USBD_HandleTypeDef *pdev , USBD_SetupReqTypedef  *req)
+./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c:207:USBD_StatusTypeDef  USBD_StdEPReq (USBD_HandleTypeDef *pdev , USBD_SetupReqTypedef  *req)
+./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c:331:static void USBD_GetDescriptor(USBD_HandleTypeDef *pdev , 
+./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c:449:static void USBD_SetAddress(USBD_HandleTypeDef *pdev , 
+./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c:491:static void USBD_SetConfig(USBD_HandleTypeDef *pdev , 
+./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c:568:static void USBD_GetConfig(USBD_HandleTypeDef *pdev , 
+./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c:608:static void USBD_GetStatus(USBD_HandleTypeDef *pdev , 
+./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c:648:static void USBD_SetFeature(USBD_HandleTypeDef *pdev , 
+./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c:669:static void USBD_ClrFeature(USBD_HandleTypeDef *pdev , 
+./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c:716:void USBD_CtlError( USBD_HandleTypeDef *pdev ,
+./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h:149:uint8_t  USBD_CDC_RegisterInterface  (USBD_HandleTypeDef   *pdev, 
+./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h:152:uint8_t  USBD_CDC_SetTxBuffer        (USBD_HandleTypeDef   *pdev,
+./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h:156:uint8_t  USBD_CDC_SetRxBuffer        (USBD_HandleTypeDef   *pdev,
+./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h:159:uint8_t  USBD_CDC_ReceivePacket      (USBD_HandleTypeDef *pdev);
+./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h:161:uint8_t  USBD_CDC_TransmitPacket     (USBD_HandleTypeDef *pdev);
+./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c:107:static uint8_t  USBD_CDC_Init (USBD_HandleTypeDef *pdev, 
+./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c:110:static uint8_t  USBD_CDC_DeInit (USBD_HandleTypeDef *pdev, 
+./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c:113:static uint8_t  USBD_CDC_Setup (USBD_HandleTypeDef *pdev, 
+./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c:116:static uint8_t  USBD_CDC_DataIn (USBD_HandleTypeDef *pdev, 
+./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c:119:static uint8_t  USBD_CDC_DataOut (USBD_HandleTypeDef *pdev, 
+./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c:122:static uint8_t  USBD_CDC_EP0_RxReady (USBD_HandleTypeDef *pdev);
+./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c:475:static uint8_t  USBD_CDC_Init (USBD_HandleTypeDef *pdev, 
+./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c:563:static uint8_t  USBD_CDC_DeInit (USBD_HandleTypeDef *pdev, 
+./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c:599:static uint8_t  USBD_CDC_Setup (USBD_HandleTypeDef *pdev, 
+./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c:664:static uint8_t  USBD_CDC_DataIn (USBD_HandleTypeDef *pdev, uint8_t epnum)
+./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c:688:static uint8_t  USBD_CDC_DataOut (USBD_HandleTypeDef *pdev, uint8_t epnum)
+./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c:718:static uint8_t  USBD_CDC_EP0_RxReady (USBD_HandleTypeDef *pdev)
+./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c:790:uint8_t  USBD_CDC_RegisterInterface  (USBD_HandleTypeDef   *pdev, 
+./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c:810:uint8_t  USBD_CDC_SetTxBuffer  (USBD_HandleTypeDef   *pdev,
+./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c:829:uint8_t  USBD_CDC_SetRxBuffer  (USBD_HandleTypeDef   *pdev,
+./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c:846:uint8_t  USBD_CDC_TransmitPacket(USBD_HandleTypeDef *pdev)
+./Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c:883:uint8_t  USBD_CDC_ReceivePacket(USBD_HandleTypeDef *pdev)
+./Inc/usb_device.h:45:extern USBD_HandleTypeDef hUsbDeviceFS;
+Binary file ./Obj/usbd_conf.o matches
+Binary file ./Obj/main.o matches
+Binary file ./Obj/usb_usr.o matches
+Binary file ./Obj/usbd_cdc_if.o matches
+Binary file ./Obj/usbd_cdc.o matches
+Binary file ./Obj/usb_device.o matches
+Binary file ./Obj/usbd_core.o matches
+Binary file ./Obj/usbd_ioreq.o matches
+Binary file ./Obj/usbd_ctlreq.o matches
+./Src/usbd_cdc_if.c:100:  extern USBD_HandleTypeDef hUsbDeviceFS;
+./Src/usb_usr.c:6:extern USBD_HandleTypeDef hUsbDeviceFS;
+./Src/usbd_conf.c:280:USBD_StatusTypeDef  USBD_LL_Init (USBD_HandleTypeDef *pdev)
+./Src/usbd_conf.c:316:USBD_StatusTypeDef  USBD_LL_DeInit (USBD_HandleTypeDef *pdev)
+./Src/usbd_conf.c:327:USBD_StatusTypeDef  USBD_LL_Start(USBD_HandleTypeDef *pdev)
+./Src/usbd_conf.c:338:USBD_StatusTypeDef  USBD_LL_Stop (USBD_HandleTypeDef *pdev)
+./Src/usbd_conf.c:352:USBD_StatusTypeDef  USBD_LL_OpenEP  (USBD_HandleTypeDef *pdev, 
+./Src/usbd_conf.c:372:USBD_StatusTypeDef  USBD_LL_CloseEP (USBD_HandleTypeDef *pdev, uint8_t ep_addr)   
+./Src/usbd_conf.c:385:USBD_StatusTypeDef  USBD_LL_FlushEP (USBD_HandleTypeDef *pdev, uint8_t ep_addr)   
+./Src/usbd_conf.c:398:USBD_StatusTypeDef  USBD_LL_StallEP (USBD_HandleTypeDef *pdev, uint8_t ep_addr)   
+./Src/usbd_conf.c:411:USBD_StatusTypeDef  USBD_LL_ClearStallEP (USBD_HandleTypeDef *pdev, uint8_t ep_addr)   
+./Src/usbd_conf.c:424:uint8_t USBD_LL_IsStallEP (USBD_HandleTypeDef *pdev, uint8_t ep_addr)   
+./Src/usbd_conf.c:443:USBD_StatusTypeDef  USBD_LL_SetUSBAddress (USBD_HandleTypeDef *pdev, uint8_t dev_addr)   
+./Src/usbd_conf.c:458:USBD_StatusTypeDef  USBD_LL_Transmit (USBD_HandleTypeDef *pdev, 
+./Src/usbd_conf.c:476:USBD_StatusTypeDef  USBD_LL_PrepareReceive(USBD_HandleTypeDef *pdev, 
+./Src/usbd_conf.c:492:uint32_t USBD_LL_GetRxDataSize  (USBD_HandleTypeDef *pdev, uint8_t  ep_addr)  
+./Src/usb_device.c:44:USBD_HandleTypeDef hUsbDeviceFS;
+./prog.lst:29917:USBD_HandleTypeDef hUsbDeviceFS;
+./prog.lst:30492:USBD_StatusTypeDef  USBD_LL_Init (USBD_HandleTypeDef *pdev)
+./prog.lst:30507:USBD_StatusTypeDef  USBD_LL_Init (USBD_HandleTypeDef *pdev)
+./prog.lst:30596:USBD_StatusTypeDef  USBD_LL_Start(USBD_HandleTypeDef *pdev)
+./prog.lst:30609:USBD_StatusTypeDef  USBD_LL_OpenEP  (USBD_HandleTypeDef *pdev, 
+./prog.lst:30636:USBD_StatusTypeDef  USBD_LL_CloseEP (USBD_HandleTypeDef *pdev, uint8_t ep_addr)   
+./prog.lst:30653:USBD_StatusTypeDef  USBD_LL_StallEP (USBD_HandleTypeDef *pdev, uint8_t ep_addr)   
+./prog.lst:30670:USBD_StatusTypeDef  USBD_LL_ClearStallEP (USBD_HandleTypeDef *pdev, uint8_t ep_addr)   
+./prog.lst:30684:uint8_t USBD_LL_IsStallEP (USBD_HandleTypeDef *pdev, uint8_t ep_addr)   
+./prog.lst:30693:uint8_t USBD_LL_IsStallEP (USBD_HandleTypeDef *pdev, uint8_t ep_addr)   
+./prog.lst:30732:USBD_StatusTypeDef  USBD_LL_SetUSBAddress (USBD_HandleTypeDef *pdev, uint8_t dev_addr)   
+./prog.lst:30746:USBD_StatusTypeDef  USBD_LL_Transmit (USBD_HandleTypeDef *pdev, 
+./prog.lst:30763:USBD_StatusTypeDef  USBD_LL_PrepareReceive(USBD_HandleTypeDef *pdev, 
+./prog.lst:30783:uint32_t USBD_LL_GetRxDataSize  (USBD_HandleTypeDef *pdev, uint8_t  ep_addr)  
+./prog.lst:31030:USBD_StatusTypeDef USBD_Init(USBD_HandleTypeDef *pdev, USBD_DescriptorsTypeDef *pdesc, uint8_t id)
+./prog.lst:31089:USBD_StatusTypeDef  USBD_RegisterClass(USBD_HandleTypeDef *pdev, USBD_ClassTypeDef *pclass)
+./prog.lst:31118:USBD_StatusTypeDef  USBD_Start  (USBD_HandleTypeDef *pdev)
+./prog.lst:31136:USBD_StatusTypeDef USBD_SetClassConfig(USBD_HandleTypeDef  *pdev, uint8_t cfgidx)
+./prog.lst:31147:USBD_StatusTypeDef USBD_SetClassConfig(USBD_HandleTypeDef  *pdev, uint8_t cfgidx)
+./prog.lst:31174:USBD_StatusTypeDef USBD_ClrClassConfig(USBD_HandleTypeDef  *pdev, uint8_t cfgidx)
+./prog.lst:31192:USBD_StatusTypeDef USBD_LL_SetupStage(USBD_HandleTypeDef *pdev, uint8_t *psetup)
+./prog.lst:31208:USBD_StatusTypeDef USBD_LL_SetupStage(USBD_HandleTypeDef *pdev, uint8_t *psetup)
+./prog.lst:31279:USBD_StatusTypeDef USBD_LL_DataOutStage(USBD_HandleTypeDef *pdev , uint8_t epnum, uint8_t *pdata)
+./prog.lst:31374:USBD_StatusTypeDef USBD_LL_DataInStage(USBD_HandleTypeDef *pdev ,uint8_t epnum, uint8_t *pdata)
+./prog.lst:31520:USBD_StatusTypeDef USBD_LL_Reset(USBD_HandleTypeDef  *pdev)
+./prog.lst:31530:USBD_StatusTypeDef USBD_LL_Reset(USBD_HandleTypeDef  *pdev)
+./prog.lst:31544:USBD_StatusTypeDef USBD_LL_Reset(USBD_HandleTypeDef  *pdev)
+./prog.lst:31611:USBD_StatusTypeDef USBD_LL_SetSpeed(USBD_HandleTypeDef  *pdev, USBD_SpeedTypeDef speed)
+./prog.lst:31624:USBD_StatusTypeDef USBD_LL_Suspend(USBD_HandleTypeDef  *pdev)
+./prog.lst:31641:USBD_StatusTypeDef USBD_LL_Resume(USBD_HandleTypeDef  *pdev)
+./prog.lst:31656:USBD_StatusTypeDef USBD_LL_SOF(USBD_HandleTypeDef  *pdev)
+./prog.lst:31685:USBD_StatusTypeDef USBD_LL_IsoOUTIncomplete(USBD_HandleTypeDef  *pdev, uint8_t epnum)
+./prog.lst:31695:USBD_StatusTypeDef USBD_LL_DevConnected(USBD_HandleTypeDef  *pdev)
+./prog.lst:31707:USBD_StatusTypeDef USBD_LL_DevDisconnected(USBD_HandleTypeDef  *pdev)
+./prog.lst:31731:void USBD_CtlError( USBD_HandleTypeDef *pdev ,
+./prog.lst:31742:void USBD_CtlError( USBD_HandleTypeDef *pdev ,
+./prog.lst:31754:void USBD_CtlError( USBD_HandleTypeDef *pdev ,
+./prog.lst:31766:USBD_StatusTypeDef  USBD_StdDevReq (USBD_HandleTypeDef *pdev , USBD_SetupReqTypedef  *req)
+./prog.lst:31777:USBD_StatusTypeDef  USBD_StdDevReq (USBD_HandleTypeDef *pdev , USBD_SetupReqTypedef  *req)
+./prog.lst:31978:static void USBD_SetAddress(USBD_HandleTypeDef *pdev , 
+./prog.lst:32174:static void USBD_GetConfig(USBD_HandleTypeDef *pdev , 
+./prog.lst:32211:static void USBD_GetStatus(USBD_HandleTypeDef *pdev , 
+./prog.lst:32247:static void USBD_SetFeature(USBD_HandleTypeDef *pdev , 
+./prog.lst:32271:static void USBD_ClrFeature(USBD_HandleTypeDef *pdev , 
+./prog.lst:32298:USBD_StatusTypeDef  USBD_StdItfReq (USBD_HandleTypeDef *pdev , USBD_SetupReqTypedef  *req)
+./prog.lst:32310:USBD_StatusTypeDef  USBD_StdItfReq (USBD_HandleTypeDef *pdev , USBD_SetupReqTypedef  *req)
+./prog.lst:32361:USBD_StatusTypeDef  USBD_StdEPReq (USBD_HandleTypeDef *pdev , USBD_SetupReqTypedef  *req)
+./prog.lst:32387:USBD_StatusTypeDef  USBD_StdEPReq (USBD_HandleTypeDef *pdev , USBD_SetupReqTypedef  *req)
+./prog.lst:32670:USBD_StatusTypeDef  USBD_CtlSendData (USBD_HandleTypeDef  *pdev, 
+./prog.lst:32706:USBD_StatusTypeDef  USBD_CtlContinueSendData (USBD_HandleTypeDef  *pdev, 
+./prog.lst:32726:USBD_StatusTypeDef  USBD_CtlPrepareRx (USBD_HandleTypeDef  *pdev,
+./prog.lst:32765:USBD_StatusTypeDef  USBD_CtlContinueRx (USBD_HandleTypeDef  *pdev, 
+./prog.lst:32789:USBD_StatusTypeDef  USBD_CtlSendStatus (USBD_HandleTypeDef  *pdev)
+./prog.lst:32815:USBD_StatusTypeDef  USBD_CtlReceiveStatus (USBD_HandleTypeDef  *pdev)
+./prog.lst:32842:static uint8_t  USBD_CDC_DataIn (USBD_HandleTypeDef *pdev, uint8_t epnum)
+./prog.lst:32868:static uint8_t  USBD_CDC_EP0_RxReady (USBD_HandleTypeDef *pdev)
+./prog.lst:32878:static uint8_t  USBD_CDC_EP0_RxReady (USBD_HandleTypeDef *pdev)
+./prog.lst:32972:static uint8_t  USBD_CDC_DataOut (USBD_HandleTypeDef *pdev, uint8_t epnum)
+./prog.lst:32987:static uint8_t  USBD_CDC_DataOut (USBD_HandleTypeDef *pdev, uint8_t epnum)
+./prog.lst:33024:static uint8_t  USBD_CDC_Setup (USBD_HandleTypeDef *pdev, 
+./prog.lst:33037:static uint8_t  USBD_CDC_Setup (USBD_HandleTypeDef *pdev, 
+./prog.lst:33060:static uint8_t  USBD_CDC_Setup (USBD_HandleTypeDef *pdev, 
+./prog.lst:33150:static uint8_t  USBD_CDC_DeInit (USBD_HandleTypeDef *pdev, 
+./prog.lst:33162:static uint8_t  USBD_CDC_DeInit (USBD_HandleTypeDef *pdev, 
+./prog.lst:33214:static uint8_t  USBD_CDC_Init (USBD_HandleTypeDef *pdev, 
+./prog.lst:33226:static uint8_t  USBD_CDC_Init (USBD_HandleTypeDef *pdev, 
+./prog.lst:33322:static uint8_t  USBD_CDC_Init (USBD_HandleTypeDef *pdev, 
+./prog.lst:33359:static uint8_t  USBD_CDC_Init (USBD_HandleTypeDef *pdev, 
+./prog.lst:33381:uint8_t  USBD_CDC_RegisterInterface  (USBD_HandleTypeDef   *pdev, 
+./prog.lst:33396:uint8_t  USBD_CDC_RegisterInterface  (USBD_HandleTypeDef   *pdev, 
+./prog.lst:33411:uint8_t  USBD_CDC_SetTxBuffer  (USBD_HandleTypeDef   *pdev,
+./prog.lst:33439:uint8_t  USBD_CDC_SetRxBuffer  (USBD_HandleTypeDef   *pdev,
+./prog.lst:33450:uint8_t  USBD_CDC_SetRxBuffer  (USBD_HandleTypeDef   *pdev,
+./prog.lst:33466:uint8_t  USBD_CDC_TransmitPacket(USBD_HandleTypeDef *pdev)
+./prog.lst:33474:uint8_t  USBD_CDC_TransmitPacket(USBD_HandleTypeDef *pdev)
+./prog.lst:33531:uint8_t  USBD_CDC_ReceivePacket(USBD_HandleTypeDef *pdev)
+./prog.lst:33539:uint8_t  USBD_CDC_ReceivePacket(USBD_HandleTypeDef *pdev)
